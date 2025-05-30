@@ -1,0 +1,137 @@
+body {
+    background-image: url('image/picture13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+.navbar ul li:hover {
+    background-image: linear-gradient(45deg, #2ed247, #339eeb);
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.dropdown {
+    display: none;
+    width: 10%;
+}
+
+ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background-color: rgba(36, 33, 33, 0.5);
+    margin-top: 12px;
+    margin-left: -25px;
+    z-index: 1;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.dropdown ul {
+    padding: 1px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_form {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    width: 40%;
+    margin-left: 80px;
+    margin-top: 60px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.contact_form form input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact_form form textarea {
+    width: 93%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact_form form button {
+    width: 40%;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.contact_form form button:hover {
+    color: white;
+    background-image: linear-gradient(45deg, #df4881, #c430df);
+}
+
+.information {
+    margin-top: 70px;
+    margin-right: 35%;
+    text-align: center;
+}
+
+.information .fa {
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.fa-map-marker {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.fa-phone {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.fa-envelope-o {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.para {
+    color: rgb(49, 170, 240);
+}

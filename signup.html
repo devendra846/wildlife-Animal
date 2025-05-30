@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Hotello</title>
+   <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <!--Navigation bar-->
+    <header>
+        <div class="logo">
+            <img src="image/logo.png" width="90" hight="90">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Page.html">About</a></li>
+                <li><a href="">Discover
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="Elephant Page.html">Elephant</a></li>
+                                <li><a href="Tiger Page.html">Tiger</a></li>
+                                <li><a href="Deer Page.html">Deer</a></li>
+                                <li><a href="Bear Page.html">Bear</a></li>
+                                <li><a href="Zebra Page.html">Zebra</a></li>
+
+                            </ul>
+                        </div>
+                    </a></li>
+                <li><a href="Contact Page.html">Contact us</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <form action="signup.php" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="phone" placeholder="Phone Number" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p> <!-- Link to Login page -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hotello. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
